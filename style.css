@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body.white-bg {
+    background-color: rgb(256,252,252);
+}
+
+
+
+body.black-bg {
+    background-color: rgba(28,27,34,255);
+}
+
+#imgHomes {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px;
+    opacity: 0.98;
+}
+
+.header.black-bg {
+    background-color: rgba(28,27,34,255);
+}
+
+.header.white-bg {
+    background-color: rgb(256,252,252);
+}
+
+.contain-choice {
+    display: grid;
+    margin: 100px auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    max-width: 900px;
+    justify-content: center;
+}
+
+#contain-virtual-one {
+    width: 300px;
+    height: 300px;
+}
+
+#contain-virtual-two {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    bottom: 35px;
+    margin-bottom: auto;
+    box-shadow: 0px 0px 5px yellow;
+    border: 5px solid black;
+}
+
+#contain-virtual-three {
+    width: 300px;
+    height: 300px;
+}
+
+.contain-virtual {
+    display: flex;
+    background-color: rgba(28,27,34,255);
+    display: grid;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1;
+}
